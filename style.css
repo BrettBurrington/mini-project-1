@@ -1,0 +1,69 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif, Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0f0000;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #d39494;
+    text-decoration: gold;
+  }
+  
+  .content {
+    margin-top: 80px;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .caption {
+    font-style: italic;
+    color: #000d2b;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  figure {
+    text-align: center;
+  }
+  
+  figure img {
+    max-width: 100%;
+    border: 40px solid #0505cf;
+  }
+  
+  h1#home {
+    color: #800080;
+    border: #333 36px;
+  }
